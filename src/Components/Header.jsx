@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './Header.module.css';
+import logo from './logo.png';
+
 
 const Header = () => {
     return(
             <header className={styles.header}>
             <nav className={styles.nav}>
                 <div className={styles.logo}>{
-                    <a src="logo.png">My Portfolio</a>
+                    <img src={logo} alt="logo" />
                 }</div>
                 <ul>
                     <li><a href="#">About</a></li>
