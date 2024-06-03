@@ -1,0 +1,30 @@
+.header{
+    background-color: #5a055a;
+    color:#fff;
+    padding: 1 rem;
+    display: flex;
+    justify-content: speace-between;
+    align-items: center;
+
+}
+
+.logo a{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav ul{
+    list-style: none;
+    display:flex;
+}
+
+.nav li{
+    margin-left: 1rem;
+}
+
+.nav a{
+    color:#fff;
+    text-decoration: none;
+}

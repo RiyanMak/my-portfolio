@@ -1,10 +1,12 @@
 import React from 'react';
+import styles from './Header.module.css';
 
 const Header = () => {
     return(
-        <header>
-            <nav>
-                <div className="logo">{
+        <Router>
+            <header className={styles.header}>
+            <nav className={styles.nav}>
+                <div className={styles.logo}>{
                     <a href="#">My Portfolio</a>
                 }</div>
                 <ul>
@@ -15,8 +17,7 @@ const Header = () => {
                 </ul>
             </nav>
         </header>
-
-
+        </Router>  
     );
 };
 
