@@ -7,9 +7,16 @@ const Header = () => {
                 <div className="logo">{
                     <a href="#">My Portfolio</a>
                 }</div>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </nav>
         </header>
-        
+
+
     );
 };
 
