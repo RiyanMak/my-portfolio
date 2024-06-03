@@ -6,7 +6,7 @@ const Header = () => {
             <header className={styles.header}>
             <nav className={styles.nav}>
                 <div className={styles.logo}>{
-                    <a href="logo.png">My Portfolio</a>
+                    <a src="logo.png">My Portfolio</a>
                 }</div>
                 <ul>
                     <li><a href="#">About</a></li>
