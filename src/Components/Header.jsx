@@ -5,9 +5,9 @@ import logo from './logo.png';
 
 const Header = () => {
     return(
-            <header className={styles.header}>
+        <header className={styles.header}>
             <nav className={styles.nav}>
-                <div className="circular-image">{
+                <div className={styles.logo}>{
                     <img src={logo} alt="logo" />
                 }</div>
                 <ul>
