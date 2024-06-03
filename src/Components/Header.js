@@ -3,7 +3,6 @@ import styles from './Header.module.css';
 
 const Header = () => {
     return(
-        <Router>
             <header className={styles.header}>
             <nav className={styles.nav}>
                 <div className={styles.logo}>{
@@ -16,8 +15,7 @@ const Header = () => {
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-        </Router>  
+        </header> 
     );
 };
 
