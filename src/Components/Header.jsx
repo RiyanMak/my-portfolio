@@ -7,7 +7,7 @@ const Header = () => {
     return(
             <header className={styles.header}>
             <nav className={styles.nav}>
-                <div className={styles.logo}>{
+                <div className="circular-image">{
                     <img src={logo} alt="logo" />
                 }</div>
                 <ul>

@@ -29,6 +29,16 @@
     text-decoration: none;
 }
 
-.logo {
-    flex: 1 rem;
+.circular-image{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: purple;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.circular-image img{
+    width: 100%;
 }
