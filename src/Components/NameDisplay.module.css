@@ -1,0 +1,10 @@
+.nameContatiner{
+    position: absolute;
+    vertical-align: text-bottom;
+}
+
+.name{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
