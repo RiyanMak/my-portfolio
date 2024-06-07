@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <Header />
-      <h1>website portfolio</h1>
     </div>
   );
 }
