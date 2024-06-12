@@ -5,9 +5,7 @@ const NameDisplay =() => {
   return (
     <div className={styles.nameContainer}>
       <body>
-        <h1>
-          <p>Hello, my name is Riyan Maknojia</p> 
-        </h1>
+          <p className={styles.name}>Hello, my name is Riyan Maknojia</p> 
       </body>
     </div>
   );
