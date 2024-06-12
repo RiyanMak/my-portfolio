@@ -4,9 +4,11 @@ import styles from './NameDisplay.module.css';
 const NameDisplay =() => {
   return (
     <div className={styles.nameContainer}>
+      <body>
         <h1>
-            <body className={styles.name}>Riyan Maknojia</body>
+          Hello, my name is <span className={styles.name}>Riyan Maknojia</span>
         </h1>
+      </body>
     </div>
   );
 };
