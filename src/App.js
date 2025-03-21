@@ -7,7 +7,8 @@ import NameDisplay from './Components/NameDisplay';
 function App() {
   return (
     <div>
-      <Header />
+     <Header className = "Riyan Maknojia"/>
+
       <NameDisplay />
     </div>
   );
